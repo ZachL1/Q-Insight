@@ -21,16 +21,18 @@ Q-Insight: Understanding Image Quality via Visual Reinforcement Learning
 [Weiqi Li](https://scholar.google.com/citations?user=SIkQdEsAAAAJ), Xuanyu Zhang, Shijie Zhao, Yabin Zhang, Junlin Li, Li Zhang and [Jian Zhang](https://jianzhang.tech/)
 </div>
 
+## 🚩 Updates
+- 09.19 Q-Insight has been accepted at NeurIPS 2025 as a **spotlight** (Top 3%)!
+- 05.30 Released training and testing code, along with the pretrained model.
+- 05.26 Released our v2 paper.
+- 03.28 Released the Q-Insight technical report.
+
 ## 🔥 Introduction
 PLCC comparisons between our proposed Q-Insight and existing IQA metrics (left) and three example applications of our Q-Insight (right) are presented. Q-Insight demonstrates significantly improved performance compared to existing methods, especially on out-of-domain datasets. Additionally, Q-Insight effectively supports quality score regression, image degradation perception, and zero-shot image comparison reasoning tasks.
 <p align="center">
   <img src="assets/teaser.png">
 </p>
 
-## 🚩 Updates
-- 05.30 Released training and testing code, along with the pretrained model.
-- 05.26 Released our v2 paper.
-- 03.28 Released the Q-Insight technical report.
 
 ## 🔧 Dependencies and Installation
 ```bash
@@ -100,6 +102,7 @@ bash run_qinsight_comparison.sh
 
 
 ## ✏️ To Do List
+- [ ] Release the code and model of VQ-Insight
 - [ ] Add support for LoRA fine-tuning
 - [ ] Provide a Gradio demo
 - [x] Release inference code and weights
@@ -114,12 +117,20 @@ We appreciate the releasing codes and data of [VLM-R1](https://github.com/om-ai-
 ## Citation
 If Q-Insight is helpful, please help to ⭐ the repo.
 
-If you find the code helpful in your research or work, please cite the following paper:
+If you find the code helpful in your research or work, please cite the following papers:
 ```
 @article{li2025qinsight,
   title={Q-Insight: Understanding Image Quality via Visual Reinforcement Learning},
   author={Li, Weiqi and Zhang, Xuanyu and Zhao, Shijie and Zhang, Yabin and Li, Junlin and Zhang, Li and Zhang, Jian},
-  journal={arXiv preprint arXiv:2503.22679},
+  journal={Proceedings of the Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2025}
+}
+```
+```
+@article{zhang2025vqinsight,
+  title={VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning},
+  author={Zhang, Xuanyu and Li, Weiqi and Zhao, Shijie and Li, Junlin and Zhang, Li and Zhang, Jian},
+  journal={arXiv preprint arXiv:2506.18564},
   year={2025}
 }
 ```
