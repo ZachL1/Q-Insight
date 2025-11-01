@@ -180,3 +180,5 @@ checkpoints/
 Data-DeQA-Score
 DiffIQA
 KADIS700K
+DataDepictQA
+kadis700k_raw

@@ -102,7 +102,7 @@ install_requires = [
     deps["packaging"],  # utilities from PyPA to e.g., compare versions
     deps["safetensors"],
     deps["sentencepiece"],
-    deps["transformers"],
+    # deps["transformers"],
     deps["trl"],
 ]
 
